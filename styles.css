@@ -1,46 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /*CÓDIGO HEADER*/
 
-header {
+.headerLayonel {
   width: 100%;
   display: flex;
   height: 50px;
   background-color: aquamarine;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
-header h1 {
+.headerLayonel h1 {
   margin-left: 20px;
 }
 
-header nav {
+.headerLayonel nav {
   margin-right: 20px;
 }
 
-header nav ul {
+.headerLayonel nav ul {
   list-style: none;
   display: flex;
   height: 100%;
   align-items: center;
 }
 
-header nav ul li {
-  transition: all 0.3s ease;
+.headerLayonel nav ul li {
   cursor: pointer;
   margin: 0 5px;
 }
 
-header nav ul li a:hover {
+.headerLayonel nav ul li a:hover {
   background-color: rgb(88, 218, 174);
 }
 
-header nav ul li a {
+.headerLayonel nav ul li a {
+  transition: all 0.3s ease;
   display: block;
   text-decoration: none;
   padding: 10px 20px;
@@ -48,7 +51,8 @@ header nav ul li a {
   border-radius: 5px;
 }
 
-.active {
+.headerLayonel .active {
   background-color: rgb(88, 218, 174);
+  border-radius: 5px;
   cursor: default;
 }

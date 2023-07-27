@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: rgb(221, 217, 217);
+}
+
+.headerCuesta {
+  width: 920px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 119, 180);
+  border: 1px solid #000;
+  border-radius: 18px;
+  left: 15%;
+  top: 5%;
+}
+
+.headerCuesta ul,
+.headerCuesta li,
+.headerCuesta a {
+  background-color: rgb(50, 119, 180);
+}
