@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    background: rgb(221, 217, 217);
+}
+
+header{
+    width: 920px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 119, 180);
+    border: 1px solid #000;
+    border-radius: 18px;
+    position: absolute;
+    left: 15%;
+    top: 5%;
+}
+
+ul, li, a{
+    background-color: rgb(50, 119, 180);
+}
