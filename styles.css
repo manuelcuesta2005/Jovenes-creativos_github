@@ -31,13 +31,24 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 10px 20px;
   transition: all 0.3s ease;
   cursor: pointer;
   margin: 0 5px;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(88, 218, 174);
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
   border-radius: 5px;
 }
 
-header nav ul li:hover {
+.active {
   background-color: rgb(88, 218, 174);
+  cursor: default;
 }
